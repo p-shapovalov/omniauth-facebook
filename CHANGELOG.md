@@ -1,3 +1,9 @@
+## 8.1.0 (2020-10-22)
+
+Changes:
+
+  - support for an access_token param, validated by facebook's debug token api
+  
 ## 8.0.0 (2020-10-20)
 
 Changes:
