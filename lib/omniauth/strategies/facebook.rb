@@ -68,7 +68,6 @@ module OmniAuth
 
       def callback_phase
         if access_token = request.params["access_token"]
-          options.provider_ignores_state = true
           super
         else
           with_authorization_parameter! do
